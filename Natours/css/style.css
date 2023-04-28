@@ -1,0 +1,31 @@
+/* imported font family -poppins et roboto et lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900');
+
+/* Colours:
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485 
+*/
+
+/* Reset browser to default */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,rgba(126, 213, 111, 0.80), #55c57a),url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+}
